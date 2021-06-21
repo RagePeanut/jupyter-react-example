@@ -1,0 +1,11 @@
+.*
+dist
+lib
+node_modules
+*.log
+*.lock
+
+!*.*ignore
+!*.*rc
+!*.*rc.js
+!*.*rc.json
