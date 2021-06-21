@@ -1,0 +1,11 @@
+name: jupyter-react-example
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter-packaging
+  - nodejs=14.15.1
+  - python=3.8
+  - yarn=1.22.5
+  - pip:
+    - jupyterlab==3.1.0a11
