@@ -35,7 +35,6 @@ module.exports = {
         exclude: /node_modules/,
       },
       { test: /\.css$/, use: ['style-loader', 'css-loader'] },
-      { test: /\.html$/, use: 'file-loader' },
       { test: /\.md$/, use: 'raw-loader' },
       { test: /\.js.map$/, use: 'file-loader' },
       {
@@ -79,7 +78,7 @@ module.exports = {
       process: 'process/browser'
     }),  
     new HtmlWebpackPlugin({
-      title: 'Jupyter React Example',
+      template: "./public/index.html",
     }),
     new HtmlWebpackTagsPlugin({
       links: [

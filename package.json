@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "tsc && webpack",
-    "clean": "rimraf node_modules lib build tsconfig.tsbuildinfo",
+    "clean": "rimraf node_modules lib build tsconfig.tsbuildinfo *.lock *.log",
     "start": "webpack serve",
     "start:webpack": "webpack serve",
     "start:jupyterlab": "./dev/start-jupyterlab.sh",
