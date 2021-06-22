@@ -137,10 +137,10 @@ render(
   <>
     <Jupyter token={TOKEN} collaborative={true} terminals={true}>
       <Typography variant="h4" gutterBottom>
-        Jupyter Component Examples
+        Jupyter React Examples
       </Typography>
       <Typography variant="subtitle1" gutterBottom>
-        JupyterLab React.js components with Material-UI © Datalayer, 2021
+        © Datalayer, 2021
       </Typography>
       <VerticalTabs/>
     </Jupyter>
