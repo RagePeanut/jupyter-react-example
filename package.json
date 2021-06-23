@@ -8,7 +8,8 @@
     "styles"
   ],
   "scripts": {
-    "build": "tsc && webpack",
+    "build": "webpack",
+    "build:tsc": "tsc",
     "clean": "rimraf node_modules lib build tsconfig.tsbuildinfo *.lock *.log",
     "start": "webpack serve",
     "start:webpack": "webpack serve",
