@@ -7,11 +7,11 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import { Jupyter } from '@jupyter-react/widgets';
 import { Cell, CellControl } from '@jupyter-react/widgets';
-import { Cells, CellsControl } from '@jupyter-react/widgets';
 import { Commands, CommandsControl } from '@jupyter-react/widgets';
 import { Console, ConsoleControl } from '@jupyter-react/widgets';
 import { Dialog, DialogControl } from '@jupyter-react/widgets';
 import { FileBrowser, FileBrowserControl } from '@jupyter-react/widgets';
+import NotebookExample from './notebook/NotebookExample';
 import { Settings, SettingsControl } from '@jupyter-react/widgets';
 import { Terminal, TerminalControl } from '@jupyter-react/widgets';
 import { Terminals, TerminalsControl } from '@jupyter-react/widgets';
@@ -77,11 +77,11 @@ export default function VerticalTabs() {
         className={classes.tabs}
       >
         <Tab label="Cell" {...a11yProps(0)} />
-        <Tab label="Cells" {...a11yProps(1)} />
         <Tab label="Commands" {...a11yProps(2)} />
         <Tab label="Console" {...a11yProps(3)} />
         <Tab label="Dialog" {...a11yProps(4)} />
         <Tab label="File Browser" {...a11yProps(5)} />
+        <Tab label="Notebook" {...a11yProps(1)} />
         <Tab label="Settings" {...a11yProps(6)} />
         <Tab label="Terminal" {...a11yProps(7)} />
         <Tab label="Terminals" {...a11yProps(8)} />
@@ -92,24 +92,23 @@ export default function VerticalTabs() {
           <Cell />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <CellsControl />
-          <Cells />
-        </TabPanel>
-        <TabPanel value={value} index={2}>
           <CommandsControl />
           <Commands />
         </TabPanel>
-        <TabPanel value={value} index={3}>
+        <TabPanel value={value} index={2}>
           <ConsoleControl />
           <Console />
         </TabPanel>
-        <TabPanel value={value} index={4}>
+        <TabPanel value={value} index={3}>
           <DialogControl/>
           <Dialog />
         </TabPanel>
-        <TabPanel value={value} index={5}>
+        <TabPanel value={value} index={4}>
           <FileBrowserControl />
           <FileBrowser />
+        </TabPanel>
+        <TabPanel value={value} index={5}>
+          <NotebookExample />
         </TabPanel>
         <TabPanel value={value} index={6}>
           <SettingsControl />
