@@ -1,7 +1,0 @@
-nbclassic@ git+https://git@github.com/datalayer-externals/jupyter-notebook-classic@master#egg=nbclassic
-jupyter-server@ git+https://git@github.com/datalayer-externals/jupyter-server@multiuser-rbac#egg=multiuser-rbac
-pyjwt
-requests
-
-[test]
-pytest

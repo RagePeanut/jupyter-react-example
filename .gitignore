@@ -10,3 +10,5 @@ node_modules
 !*.*rc
 !*.*rc.js
 !*.*rc.json
+
+*.egg-info

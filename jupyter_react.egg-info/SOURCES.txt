@@ -1,8 +1,0 @@
-README.md
-setup.py
-jupyter_react.egg-info/PKG-INFO
-jupyter_react.egg-info/SOURCES.txt
-jupyter_react.egg-info/dependency_links.txt
-jupyter_react.egg-info/entry_points.txt
-jupyter_react.egg-info/requires.txt
-jupyter_react.egg-info/top_level.txt
