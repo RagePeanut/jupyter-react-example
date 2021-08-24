@@ -1,3 +1,13 @@
+Metadata-Version: 2.1
+Name: jupyter-react
+Version: 0.0.5
+Summary: Jupyter React
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Provides-Extra: test
+
 [![Datalayer](https://raw.githubusercontent.com/datalayer/datalayer/main/res/logo/datalayer-25.svg?sanitize=true)](https://datalayer.io)
 
 # Jupyter React Example
@@ -37,3 +47,5 @@ Enjoy the React widgets on http://localhost:3522
 # Teardown.
 make docker-rm
 ```
+
+

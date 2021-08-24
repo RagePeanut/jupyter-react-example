@@ -38,25 +38,10 @@ env:
 
 install:
 	($(CONDA_ACTIVATE) jupyter-react-example; \
-		yarn install )
+		yarn install && \
+		pip install -e . )
 
 start:
-	echo open http://localhost:8080
+	echo open http://localhost:3522
 	($(CONDA_ACTIVATE) jupyter-react-example; \
 		yarn start )
-
-docker-pull:
-	docker pull datalayer/datalayer-jupyterpool:0.0.1
-
-docker-start: ## start the container in detachd mode.
-	@exec echo open http://localhost:8888/api/jupyterpool?token=60c1661cc408f978c309d04157af55c9588ff9557c9380e4fb50785750703da6
-	@exec docker run \
-	  -it \
-	  --detach \
-	  --rm \
-	  --name datalayer-jupyterpool \
-	  -p 8888:8888 \
-	  datalayer/datalayer-jupyterpool:0.0.1
-
-docker-rm: ## remove the container.
-	@exec docker rm -f datalayer-jupyterpool

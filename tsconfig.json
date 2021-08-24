@@ -14,8 +14,9 @@
     "declaration": true,
     "esModuleInterop": true,
     "incremental": true,
-    "jsx": "react",
-    "module": "esnext",
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "module": "ESnext",
     "moduleResolution": "node",
     "noEmitOnError": true,
     "noImplicitAny": true,
@@ -25,7 +26,9 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "strictNullChecks": true,
-    "target": "es2017",
-    "types": []
+    "target": "ES2017",
+    "types": [
+      "node"
+    ]
   }
 }

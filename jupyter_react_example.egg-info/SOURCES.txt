@@ -1,0 +1,7 @@
+README.md
+setup.py
+jupyter_react_example.egg-info/PKG-INFO
+jupyter_react_example.egg-info/SOURCES.txt
+jupyter_react_example.egg-info/dependency_links.txt
+jupyter_react_example.egg-info/requires.txt
+jupyter_react_example.egg-info/top_level.txt
