@@ -21,19 +21,17 @@ make env && \
 ```bash
 # Install the dependencies.
 make install
+```
+
+```bash
 # Build the source.
 make build
 ```
 
 ```bash
-# Start the local development web server.
+# Start the local development server.
 echo open http://localhost:3522
 make start
 ```
 
-Enjoy the React widgets on http://localhost:3522
-
-```bash
-# Teardown.
-make docker-rm
-```
+Enjoy the Jupyter React Widgets on http://localhost:3522.

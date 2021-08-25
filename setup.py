@@ -37,8 +37,8 @@ setup_args = dict(
     install_requires = [
         'nbclassic @ git+https://git@github.com/datalayer-externals/jupyter-notebook-classic@master#egg=nbclassic',
         'jupyter-server @ git+https://git@github.com/datalayer-externals/jupyter-server@multiuser-rbac#egg=multiuser-rbac',
-        'jupyter-react @ git+https://git@github.com/datalayer/datalayer@main#subdirectory=src/jupyter/react',
-		'jupyter-auth @ git+https://git@github.com/datalayer/datalayer@main#subdirectory=src/jupyter/auth',
+		'jupytery-auth',
+        'jupytery-react',
         'pyjwt',
         'requests',
     ],

@@ -9,6 +9,7 @@ import requests
 
 c.ServerApp.ip = '0.0.0.0'
 c.ServerApp.port = 8686
+c.ServerApp.port_retries = 0
 
 #################
 # Browser
@@ -22,7 +23,7 @@ c.ServerApp.open_browser = False
 
 c.ServerApp.token = '60c1661cc408f978c309d04157af55c9588ff9557c9380e4fb50785750703da6'
 
-# from jupyter_auth.authentication import github
+# from jupytery_auth.authentication import github
 # c.ServerApp.login_handler_class = github.LoginHandler
 
 c.ServerApp.allow_origin = '*'
@@ -44,16 +45,16 @@ c.ServerApp.authorization_manager_class = AuthorizationManagerExample
 #################
 
 c.ServerApp.jpserver_extensions = {
-    'jupyter_auth': True,
+    'jupytery_auth': True,
     'jupyterlab': True,
-    'jupyter_react': True,
+    'jupytery_react': True,
 }
 
 #################
 # Content
 #################
 
-c.ServerApp.root_dir = os.path.dirname(os.path.realpath(__file__)) + '/../notebooks'
+c.ServerApp.root_dir = os.path.dirname(os.path.realpath(__file__)) + '/notebooks'
 
 #################
 # URLs

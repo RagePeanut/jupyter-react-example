@@ -1,6 +1,6 @@
 {
   "name": "@datalayer-jupyter/example",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "private": true,
   "main": "lib/index.js",
   "files": [
@@ -17,7 +17,7 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "@datalayer-jupyter/widgets": "0.0.5",
+    "@datalayer-jupyter/widgets": "0.0.6",
     "@material-ui/core": "5.0.0-beta.1",
     "@material-ui/icons": "5.0.0-beta.1",
     "@material-ui/lab": "5.0.0-alpha.40",
@@ -25,17 +25,6 @@
     "@material-ui/system":"5.0.0-beta.1",
     "@emotion/react": "11.4.0",
     "@emotion/styled":"11.3.0",
-    "plotly.js": "2.2.1",
-    "redux-observable": "1.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-redux": "7.2.4",
-    "redux": "4.1.0",
-    "typescript-fsa": "3.0.0",
-    "typescript-fsa-reducers": "1.2.1",
-    "uuid": "8.3.2",
-    "lodash": "^4.17.4",
-    "rxjs": "6.5.5",
     "@jupyter-widgets/base": "5.0.0-alpha.3",
     "@jupyter-widgets/controls": "4.0.0-alpha.3",
     "@jupyter-widgets/html-manager": "0.21.0-alpha.3",
@@ -57,7 +46,18 @@
     "@jupyterlab/theme-light-extension": "3.1.0",
     "@lumino/commands": "1.15.0",
     "@lumino/default-theme": "0.14.0",
-    "@lumino/widgets": "1.23.0"
+    "@lumino/widgets": "1.23.0",
+    "plotly.js": "2.2.1",
+    "redux-observable": "1.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.4",
+    "redux": "4.1.0",
+    "typescript-fsa": "3.0.0",
+    "typescript-fsa-reducers": "1.2.1",
+    "uuid": "8.3.2",
+    "lodash": "^4.17.4",
+    "rxjs": "6.5.5"
   },
   "devDependencies": {
     "@babel/core": "7.14.6",
