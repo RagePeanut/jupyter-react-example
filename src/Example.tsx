@@ -15,7 +15,7 @@ document.body.appendChild(div);
 
 const Header = () =>  <>
     <Typography variant="h4" gutterBottom>
-      Jupyter React Example
+      Jupyter React Widgets
     </Typography>
     <Typography variant="subtitle1" gutterBottom>
       © Datalayer, 2021

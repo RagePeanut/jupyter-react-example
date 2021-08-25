@@ -4,7 +4,7 @@
 
 This repository contains a simple example that uses [Juypyter React](https://docs.datalayer.io/docs/jupyter/react/index) widgets to create a custom user interface for data analysis.
 
-![Jupyter React Example](./docs/jupyter-react-example.png "Jupyter React Example")
+![Jupyter React Gallery](./docs/gallery.gif "Jupyter React Gallery")
 
 To setup your environment, ensure you have [miniconda](https://docs.conda.io/en/latest/miniconda.html) and [docker](https://docs.docker.com/get-docker) installed on your local environment.
 
@@ -35,3 +35,7 @@ make start
 ```
 
 Enjoy the Jupyter React Widgets on http://localhost:3522.
+
+You can build your own custom notebook as a React.js application with custom toolbar...
+
+![Notebook Example](./docs/react-notebook.png "Notebook Example")
